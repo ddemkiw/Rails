@@ -31,6 +31,8 @@ group :test do
   gem 'capybara'
 end
 
+gem "haml-rails", "~> 0.8"
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

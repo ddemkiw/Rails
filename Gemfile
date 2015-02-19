@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
+gem "haml-rails", "~> 0.8"
 gem 'devise'
+gem 'omniauth-facebook'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -34,7 +36,6 @@ group :test do
   gem 'rspec-collection_matchers'
 end
 
-gem "haml-rails", "~> 0.8"
 
 
 # Use ActiveModel has_secure_password
